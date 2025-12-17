@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+venv/
+env/
+
+# Data files - IMPORTANT!
+mydata/
+label-studio-ml-backend/mydata/
+*.sqlite3
+**/export/*.json
+
+# Models
+sam/
+sam2/
+*.pt
+*.pth
+*.onnx
+
+# Environment
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
